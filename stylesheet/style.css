@@ -1,0 +1,541 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* the start of the first section */
+.nav-bar{
+    background-color: #5b0d25;
+    height: 20rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 66%);
+}
+.header{
+    background-image: url(../img/imgs/imgs/pattern.png);
+    height: 100%;
+    width: 100%;
+    padding: 90px 0 0 0;
+}
+.world-cup{
+    direction: rtl;
+    color: #fff;
+    padding: 0 200px 0 0;
+    font-size: 60px;
+}
+.logo{
+    top: 90px;
+    padding: 0 0 0 70px;
+}
+.photo-one{
+    width: 140px;
+    -webkit-filter: drop-shadow(5px 5px 50px #222);
+    filter: drop-shadow(5px 5px 50px #222)
+}
+/* the end of the first section */
+
+/* the start of the second section */
+.country-name{
+    font-size: 60px;
+    font-weight: 900;
+    color:#5b0d25;
+}
+/* the end of the second section */
+
+/* the start of the third section */
+.groups-matches{
+    direction: rtl;
+    margin: 150px 0 0 19%;
+    border-bottom: 1px solid #ccc;
+    width: 65vw;
+}
+.group-stage{
+    background-color: #5b0d25;
+    color: #fff;
+    margin: 10px 0 0 0;
+    border: 1px solid #5b0d25;
+}
+table{
+    width: 32.6vw;
+    margin: 10px 0 0 0;
+}
+table thead th{
+    background-color:#222;
+    color: #fff;
+}
+table td{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.left{
+    margin: 0 0 0 200px;
+    width: 32.6vw;
+}
+.right{
+    margin: 0 0 0 15px;
+}
+.flag{
+    width: 40px;
+    object-fit: cover;
+    margin: 0 10px 0 0;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+/* the end of the third section */
+
+/* the start of the forth section*/
+.forth-section .same{
+    background-color: #5b0d25;
+    color: #fff;
+    width: 20%;
+    height: 100px;
+    margin: 0 0 100px 50px;
+    padding: 25px 0 0 0;
+}
+.forth-section .middle{
+    width: 50%;
+    height: 100px;
+    border-top: 1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.left-div{
+    margin: 0 0 0 120px;
+    border-start-start-radius: 50px;
+    border-end-start-radius: 50px;
+}
+.right-div{
+    margin: 0 120px 0 0;
+    border-end-end-radius: 50px;
+    border-start-end-radius: 50px;
+}
+/* the end of the forth section */
+
+/* the start of the fifth section */
+.parentt-div{
+    width: 20vw;
+    margin: 100px 0 100px 40%;
+}
+/* the end of the fifth section */
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1439px) and (min-width: 1024px) {
+    
+/* the start of the first section */
+.nav-bar{
+    height: 20rem;
+    /* width: 120vw; */
+}
+.header{
+    height: 100%;
+    width: 100%;
+    padding: 90px 0 0 0 ;
+}
+.world-cup{
+    padding: 0 200px 0 0 ;
+    font-size: 60px;
+}
+.logo{
+    top: 90px;
+    padding: 0 0 0 70px;
+}
+/* the end of the first section */
+
+/* the start of the second section */
+.country-name{
+    font-size: 60px;
+    font-weight: 900;
+}
+/* the end of the second section */
+
+
+/* the start of the third section */
+.groups-matches{
+    margin: 150px 0 0 10%;
+    width: 82vw;
+}
+.group-stage{
+    width: 40vw;
+    margin: 10px 0 0 0;
+}
+table{
+    width: 40vw;
+    margin: 10px 0 0 0;
+}
+table td{
+    padding: 10px;
+}
+.left{
+    width: 40vw;
+    margin: 0 0 0 10%;
+}
+.right{
+    margin: 0 0 0 15px;
+}
+.flag{
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+/* the end */
+
+/* the start of the forth section*/
+.forth-section {
+    margin: 0 0 0 40px;
+}
+.forth-section .same{
+    width: 20%;
+    height: 100px;
+    margin: 0 0 100px 0;
+    padding: 25px 0 0 0;
+}
+.forth-section .middle{
+    width: 55%;
+    height: 100px;
+}
+.left-div{
+    margin: 0 0 0 20px;
+}
+.right-div{
+    margin: 0 20px 0 0;
+}
+/* the end of the forth section */
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+    
+        /* the start of the first section */
+        .nav-bar{
+            height: 20rem;
+            width: 140vw;
+        }
+        .header{
+            height: 100%;
+            width: 100%;
+            padding: 90px 0 0 0 ;
+        }
+        .world-cup{
+            padding: 0 200px 0 0 ;
+            font-size: 60px;
+        }
+        .logo{
+            top: 90px;
+            padding: 0 0 0 70px;
+        }
+        /* the end of the first section */
+        
+        /* the start of the second section */
+        .country-name{
+            font-size: 60px;
+            font-weight: 900;
+            width: 140vw;
+        }
+        /* the end of the second section */
+        
+        
+        /* the start of the third section */
+        .groups-matches{
+            margin: 150px 0 0 10%;
+            width: 110vw;
+        }
+        .group-stage{
+            width: 60vw;
+            margin: 10px 0 0 0;
+        }
+        table{
+            width: 60vw;
+            margin: 10px 0 0 0;
+        }
+        table td{
+            padding: 10px;
+        }
+        .left{
+            width: 60vw;
+            margin: 0 0 0 10%;
+        }
+        .right{
+            margin: 0 0 0 15px;
+        }
+        .flag{
+            width: 40px;
+            margin: 0 10px 0 0;
+        }
+        /* the end */
+        
+        /* the start of the forth section*/
+        .forth-section {
+            margin: 0 0 0 200px;
+            height: 150px;
+        }
+        .forth-section .same{
+            width: 20%;
+            height: 100px;
+            margin: 0 0 100px 0;
+            padding: 25px 0 0 0;
+        }
+        .forth-section .middle{
+            width: 65%;
+            height: 100px;
+        }
+        .left-div{
+            margin: 0 0 0 200px;
+        }
+        .right-div{
+            margin: 0 20px 0 0;
+        }
+        /* the end of the forth section */
+}
+
+@media (max-width: 767px) and (min-width: 425px) {
+    
+    /* the start of the first section */
+    .nav-bar{
+        height: 18rem;
+        width: 180vw;
+    }
+    .header{
+        height: 100%;
+        width: 100%;
+        padding: 90px 0 0 0 ;
+    }
+    .world-cup{
+        padding: 0 80px 0 0 ;
+        font-size: 40px;
+    }
+    .logo{
+        top: 120px;
+        padding: 0 0 0 80px;
+    }
+    .photo-one{
+        width: 80px;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .country-name{
+        font-size: 60px;
+        font-weight: 900;
+        width: 180vw;
+    }
+    /* the end of the second section */
+    
+    
+    /* the start of the third section */
+    .groups-matches{
+        margin: 150px 0 0 10%;
+        width: 150vw;
+    }
+    .group-stage{
+        width: 75vw;
+        margin: 10px 0 0 0;
+    }
+    table{
+        width: 75vw;
+        margin: 10px 0 0 0;
+    }
+    table td{
+        padding: 10px;
+    }
+    .left{
+        width: 75vw;
+        margin: 0 0 0 10%;
+    }
+    .right{
+        margin: 0 0 0 15px;
+    }
+    .flag{
+        width: 40px;
+        margin: 0 10px 0 0;
+    }
+    /* the end */
+    
+    /* the start of the forth section*/
+    .forth-section {
+        margin: 0 0 0 80px;
+        width: 140vw;
+    }
+    .forth-section .same{
+        width: 50vw;
+        height: 100px;
+        margin: 0 0 100px 0;
+        padding: 25px 0 0 0;
+    }
+    .forth-section .middle{
+        width: 120vw;
+        height: 100px;
+    }
+    /* the end of the forth section */
+}
+        
+        
+@media (max-width: 424px) and (min-width: 375px) {
+    
+    /* the start of the first section */
+    .nav-bar{
+        height: 18rem;
+        width: 190vw;
+    }
+    .header{
+        height: 100%;
+        width: 100%;
+        padding: 90px 0 0 0 ;
+    }
+    .world-cup{
+        padding: 0 80px 0 0 ;
+        font-size: 40px;
+    }
+    .logo{
+        top: 120px;
+        padding: 0 0 0 80px;
+    }
+    .photo-one{
+        width: 80px;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .country-name{
+        font-size: 60px;
+        font-weight: 900;
+        width: 190vw;
+    }
+    /* the end of the second section */
+    
+    
+    /* the start of the third section */
+    .groups-matches{
+        margin: 150px 0 0 10%;
+        width: 160vw;
+    }
+    .group-stage{
+        width: 85vw;
+        margin: 10px 0 0 0;
+    }
+    table{
+        width: 85vw;
+        margin: 10px 0 0 0;
+    }
+    table td{
+        padding: 10px;
+    }
+    .left{
+        width: 85vw;    
+        margin: 0 0 0 10%;
+    }
+    .right{
+        margin: 0 0 0 15px;
+    }
+    .flag{
+        width: 40px;
+        margin: 0 10px 0 0;
+    }
+    /* the end */
+    
+    /* the start of the forth section*/
+    .forth-section {
+        margin: 0 0 0 80px;
+        width: 150vw;
+    }
+    .forth-section .same{
+        width: 50vw;
+        height: 100px;
+        margin: 0 0 100px 0;
+        padding: 25px 0 0 0;
+    }
+    .forth-section .middle{
+        width: 120vw;
+        height: 100px;
+    }
+    /* the end of the forth section */
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+    
+    /* the start of the first section */
+    .nav-bar{
+        height: 18rem;
+        width: 220vw;
+    }
+    .header{
+        height: 100%;
+        width: 100%;
+        padding: 90px 0 0 0 ;
+    }
+    .world-cup{
+        padding: 0 80px 0 0 ;
+        font-size: 40px;
+    }
+    .logo{
+        top: 120px;
+        padding: 0 0 0 80px;
+    }
+    .photo-one{
+        width: 80px;
+    }
+    /* the end of the first section */
+    
+    /* the start of the second section */
+    .country-name{
+        font-size: 60px;
+        font-weight: 900;
+        width: 220vw;
+    }
+    /* the end of the second section */
+    
+    
+    /* the start of the third section */
+    .groups-matches{
+        margin: 150px 0 0 10%;
+        width: 190vw;
+    }
+    .group-stage{
+        width: 95vw;
+        margin: 10px 0 0 0;
+    }
+    table{
+        width: 95vw;
+        margin: 10px 0 0 0;
+    }
+    table td{
+        padding: 10px;
+    }
+    .left{
+        width: 95vw;
+        margin: 0 0 0 10%;
+    }
+    .right{
+        margin: 0 0 0 15px;
+    }
+    .flag{
+        width: 40px;
+        margin: 0 10px 0 0;
+    }
+    /* the end */
+    
+    /* the start of the forth section*/
+    .forth-section {
+        margin: 0 0 0 80px;
+        width: 180vw;
+    }
+    .forth-section .same{
+        width: 50vw;
+        height: 100px;
+        margin: 0 0 100px 0;
+        padding: 25px 0 0 0;
+    }
+    .forth-section .middle{
+        width: 120vw;
+        height: 100px;
+    }
+    /* the end of the forth section */
+}
